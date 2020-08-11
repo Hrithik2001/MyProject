@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="icon" href="myself1.jpg" type="image/x-icon"><!-- Some browseres recognize this-->
+    <link rel="shortcut" href="myself1.jpf" type="image/x-icon"><!-- Some browsers recognize this so we have to include both -->
+    <meta name="name" content="Hrithik's Portal"><!-- search engines like google will show as feed when searched using this-->
+    <meta name="robot" content="noindex, nofollow"><!-- this is used when we don't want our website to be shown Remainder: when publishing the website make sure this tag is commented-->
+    <title>Tournaments</title>
+    <link rel="stylesheet" href="css/tourni.css">
+  </head>
+  <body>
+    <div id="id_1">
+     <nav class="navbar navbar-inverse">
+       <div class="container">
+         <div class="navbar-header">
+           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+           </button>
+           <a class="navbar-brand" href="#">Hrithik</a>
+         </div>
+         <div class="collapse navbar-collapse" id="myNavbar">
+           <ul class="nav navbar-nav">
+             <li><a href="index.html">Home</a></li>
+             <li><a href="abt_cricket.html">All about cricket</a></li>
+             <li class="active"><a href="abt_tourni.html">Tournaments</a></li>
+             <li><a href="cricket_teams.html">Teams</a></li>
+             <li><a href="famous.html">Hall of fame</a></li>
+           </ul>
+           <ul class="nav navbar-nav navbar-right">
+             <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+             <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+           </ul>
+         </div>
+     </nav>
+   </div>
+ </div>
+  </div>
+  <h1>Tournaments</h1>
+  <div class="center">
+    <p>
+    There are many tournaments and series that are held every year under the authority of<a href="https://en.wikipedia.org/wiki/International_Cricket_Council">ICC(International Cricket Council)</a>.Under this authority
+there is a sub-authority in each participating country like <a href="https://en.wikipedia.org/wiki/Board_of_Control_for_Cricket_in_India">BCCI(Board of Control for Cricket in India)</a>for India etc.. National tournaments
+like IPL will be conducted by these sub-authorities under the jurisdiction of ICC and International tournaments like World cup will be conducted by ICC.
+                   The Types of tournaments conducted are listed below.
+  </p>
+  </div>
+  <h2>Major International Tournaments</h2>
+  <div class="responsive">
+  <table class="table table-striped table-bordered">
+    <tr id="id_11"><th>Format</th><th>Tournament</th><th>Current Trophy Holder</th></tr>
+    <tr id="id_12"><td>Test</td><td>ICC World Test Championship.</td><td>Ongoing</td></tr>
+    <tr id="id_13"><td>ODI</td><td>ICC Cricket World Cup</td><td>England</td></tr>
+    <tr id="id_14"><td>T20I</td><td>ICC T20I World Cup</td><td>West Indies</td></tr>
+    <tr id="id_15"><td>ODI</td><td>ICC Champions Trophy</td><td>Pakistan</td></tr>
+    <tr id="id_16"><td>ODI,T20I</td><td>Asia Cup</td><td>India</td></tr>
+  </table>
+</div>
+    <h2>Local Tournaments</h2>
+   <div class="top">
+  <!--   <button type="button" name="India">India</button>
+     <button type="button" name="England">England</button>
+     <button type="button" name="Australia">Australia</button>
+     <button type="button" name="New Zealand">New Zealand</button>
+  -->
+  <input type="button" name="India" alt="India Premiere League" src="images/page3/ipl.jfif" onclick="upDate(this)" value="India">
+  <input type="button" name="England" src="images/page3/t20blast.jpg" alt="England Domestic Cricket" onclick="upDate(this)" value="England">
+  <input type="button" name="Australia" src="images/page3/bigbash.png" alt="Australian Bigbash League" onclick="upDate(this)" value="Australia">
+  <input type="button" name="New Zealand" src="images/page3/supersmash.jfif" alt="New Zealand Supersmash League" onclick="upDate(this)" value="New Zealand">
+   </div>
+   <div class="bottom">
+  <!--   <button type="button" name="Bangladesh" onclick="upDate('images/page3/t20blast.jfif')">Bangladesh</button>
+     <button type="button" name="South Africa">South Africa</button>
+     <button type="button" name="Pakistan">Pakistan</button>
+     <button type="button" name="Sri Lanka">Sri Lanka</button>
+  -->
+  <input type="button" name="Bangladesh" alt="Bangladesh Premiere League" src="images/page3/bpl.png" onclick="upDate(this)" value="Bangladesh">
+  <input type="button" name="South Africa" src="images/page3/msl.png" alt="South Africa" onclick="upDate(this)" value="South Africa">
+  <input type="button" name="Ireland" src="images/page3/euro.jfif" alt="Euro t20 slam" onclick="upDate(this)" value="Ireland">
+  <input type="button" name="West Indies" src="images/page3/wi.jfif" alt="Caribbean Premiere League" onclick="upDate(this)" value="Wesi Indies">
+
+   </div>
+   <div id = "image">
+		<h3>Click on the Button.</h3>
+	</div>
+  <script type="text/javascript">
+  function upDate(pic){
+    var src = pic.getAttribute( "src" );
+      var alt = pic.getAttribute( "alt" );
+      document.getElementById('image').style.backgroundImage = "url('" + src + "')";
+      document.getElementById('image').innerHTML = alt;
+}
+  </script>
+  <footer><hr>
+<p>copyright (c) Hrithik 2020</p><hr>
+  </footer>
+</body>
+</html>

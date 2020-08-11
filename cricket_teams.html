@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="icon" href="myself1.jpg" type="image/x-icon"><!-- Some browseres recognize this-->
+    <link rel="shortcut" href="myself1.jpf" type="image/x-icon"><!-- Some browsers recognize this so we have to include both -->
+    <title>Teams</title>
+    <link rel="stylesheet" href="css/teams1.css">
+  </head>
+  <body>
+    <div id="id_1">
+     <nav class="navbar navbar-inverse">
+       <div class="container">
+         <div class="navbar-header">
+           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+           </button>
+           <a class="navbar-brand" href="#">Hrithik</a>
+         </div>
+         <div class="collapse navbar-collapse" id="myNavbar">
+           <ul class="nav navbar-nav">
+             <li><a href="index.html">Home</a></li>
+             <li><a href="abt_cricket.html">All about cricket</a></li>
+             <li><a href="abt_tourni.html">Tournaments</a></li>
+             <li class="active"><a href="cricket_teams.html">Teams</a></li>
+             <li><a href="famous.html">Hall of fame</a></li>
+           </ul>
+           <ul class="nav navbar-nav navbar-right">
+             <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+             <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+           </ul>
+         </div>
+     </nav>
+   </div>
+ </div>
+  </div>
+  <h1>Cricket Teams</h1>
+  <div class="top">
+     <h2>Many Nationalities participate in International Cricket Tournaments.</h2>
+  </div>
+  <div class="responsive">
+    <table class="table table-striped table-bordered">
+      <tr id="id_11"><th>Teams</th><th>Teams</th></tr>
+      <tr id="id_12"><td>Afghanistan</td><td>Pakistan</td></tr>
+      <tr id="id_13"><td>Australia</td><td>Scotland</td></tr>
+      <tr id="id_14"><td>Bangladesh</td><td>South Africa</td></tr>
+      <tr id="id_15"><td>England</td><td>Sri Lanka</td></tr>
+      <tr id="id_16"><td>India</td><td>West Indies</td></tr>
+      <tr id="id_17"><td>Ireland</td><td>Zimbabwe</td></tr>
+      <tr id="id_18"><td>New Zealand</td><td>Women's Cricket</td></tr>
+    </table>
+  </div>
+  <h2>Click or Hover on the buttons below</h2>
+  <div class="top">
+    <input type="button" name="India" alt="India Premiere League" src="images/page3/ipl.jfif" onclick="upDate(1)" onmouseover="picture(1)" onmouseout="undo(1)" value="India">
+    <input type="button" name="England" src="images/page3/t20blast.jfif" alt="England Domestic Cricket" onclick="upDate(2)" onmouseover="picture(2)" onmouseout="undo(2)" value="England">
+    <input type="button" name="Australia" src="images/page3/bigbash.png" alt="Australian Bigbash League" onclick="upDate(3)" onmouseover="picture(3)" onmouseout="undo(3)" value="Australia">
+    <input type="button" name="New Zealand" src="images/page3/supersmash.jfif" alt="New Zealand Supersmash League" onclick="upDate(4)" onmouseover="picture(4)" onmouseout="undo(4)" value="New Zealand">
+  </div>
+  <div class="bottom">
+    <input type="button" name="Bangladesh" alt="Bangladesh Premiere League" src="images/page3/bpl.png" onclick="upDate(5)" onmouseover="picture(5)" onmouseout="undo(5)" value="Bangladesh">
+    <input type="button" name="South Africa" src="images/page3/msl.png" alt="South Africa" onclick="upDate(6)" onmouseover="picture(6)" onmouseout="undo(6)"value="South Africa">
+    <input type="button" name="Pakistan" src="images/page3/psl.jfif" alt="Pakistan Super League" onclick="upDate(7)" onmouseover="picture(7)" onmouseout="undo(7)" value="Pakistan">
+    <input type="button" name="West Indies" src="images/page3/slpl.png" alt="Srilankan Premiere League" onclick="upDate(8)" onmouseover="picture(8)" onmouseout="undo(8)" value="West Indies">
+  </div>
+  <div id="image" style="display: none">
+    <input id="img_1" type="image" src="images/page4/india/3.jfif" alt="Dhoni">
+    <input id="img_2" type="image" src="images/page4/india/1.jfif" alt="Indian Team">
+    <input id="img_3" type="image" src="images/page4/india/5.jfif" alt="Kohli">
+  </div>
+  <div id="image1" style="display: none">
+    <input id="img_1" type="image" src="images/page4/india/3.jfif" alt="Dhoni">
+    <input id="img_2" type="image" src="images/page4/india/1.jfif" alt="Indian Team">
+    <input id="img_3" type="image" src="images/page4/india/5.jfif" alt="Kohli">
+  </div>
+  <div id="image2" style="display: none">
+    <input id="img_1" type="image" src="images/page4/india/3.jfif" alt="Dhoni" style="display: none">
+    <input id="img_2" type="image" src="images/page4/india/1.jfif" alt="Indian Team" style="display: none">
+    <input id="img_3" type="image" src="images/page4/india/5.jfif" alt="Kohli" style="display: none">
+  </div>
+  <div id="image3" style="display: none">
+    <input id="img_1" type="image" src="images/page4/india/3.jfif" alt="Dhoni" style="display: none">
+    <input id="img_2" type="image" src="images/page4/india/1.jfif" alt="Indian Team" style="display: none">
+    <input id="img_3" type="image" src="images/page4/india/5.jfif" alt="Kohli">
+  </div>
+  <div id="image4" style="display: none">
+    <input id="img_1" type="image" src="images/page4/india/3.jfif" alt="Dhoni">
+    <input id="img_2" type="image" src="images/page4/india/1.jfif" alt="Indian Team">
+    <input id="img_3" type="image" src="images/page4/india/5.jfif" alt="Kohli">
+  </div>
+  <div id="image5" style="display: none">
+    <input id="img_1" type="image" src="images/page4/india/3.jfif" alt="Dhoni">
+    <input id="img_2" type="image" src="images/page4/india/1.jfif" alt="Indian Team">
+    <input id="img_3" type="image" src="images/page4/india/5.jfif" alt="Kohli">
+  </div>
+  <div id="image6" style="display: none">
+    <input id="img_1" type="image" src="images/page4/india/3.jfif" alt="Dhoni">
+    <input id="img_2" type="image" src="images/page4/india/1.jfif" alt="Indian Team">
+    <input id="img_3" type="image" src="images/page4/india/5.jfif" alt="Kohli">
+  </div>
+  <div id="image7" style="display: none">
+    <input id="img_1" type="image" src="images/page4/india/3.jfif" alt="Dhoni">
+    <input id="img_2" type="image" src="images/page4/india/1.jfif" alt="Indian Team">
+    <input id="img_3" type="image" src="images/page4/india/5.jfif" alt="Kohli">
+  </div>
+  <div id="image8" style="display: none">
+    <input id="img_1" type="image" src="images/page4/india/3.jfif" alt="Dhoni">
+    <input id="img_2" type="image" src="images/page4/india/1.jfif" alt="Indian Team">
+    <input id="img_3" type="image" src="images/page4/india/5.jfif" alt="Kohli">
+  </div>
+  <script type="text/javascript">
+    function upDate(pic){
+      if ( pic == 1) {
+      var src2 = 'images/page4/india/2.jfif';
+      var alt2 = 'Indian Team'
+      var src1 = 'images/page4/india/4.jfif';
+      var alt1 = 'Dhoni';
+      var src3 = 'images/page4/india/6.jfif';
+      var alt3 = 'kohli';
+      document.getElementById('img_1').src = src1;
+      document.getElementById('img_1').innerHTML = alt1;
+      document.getElementById('img_2').src = src2
+      document.getElementById('img_2').innerHTML = alt2;
+      document.getElementById('img_3').src = src3;
+      document.getElementById('img_3').innerHTML = alt3;
+      document.getElementById('image').style.display = 'inline';
+
+      }
+      if ( pic == 2) {
+      var src2 = 'images/page4/eng/1.jfif';
+      var alt2 = 'Indian Team'
+      var src1 = 'images/page4/eng/3.jfif';
+      var alt1 = 'Dhoni';
+      var src3 = 'images/page4/eng/5.jfif';
+      var alt3 = 'kohli';
+      document.getElementById('img_1').src = src1;
+      document.getElementById('img_1').innerHTML = alt1;
+      document.getElementById('img_2').src = src2
+      document.getElementById('img_2').innerHTML = alt2;
+      document.getElementById('img_3').src = src3;
+      document.getElementById('img_3').innerHTML = alt3;
+      document.getElementById('image').style.display = 'inline';
+    }
+    if ( pic == 3) {
+      var src2 = 'images/page4/aus/1.jfif';
+      var alt2 = 'Indian Team'
+      var src1 = 'images/page4/aus/3.jfif';
+      var alt1 = 'Dhoni';
+      var src3 = 'images/page4/aus/5.jfif';
+      var alt3 = 'kohli';
+      document.getElementById('img_1').src = src1;
+      document.getElementById('img_1').innerHTML = alt1;
+      document.getElementById('img_2').src = src2
+      document.getElementById('img_2').innerHTML = alt2;
+      document.getElementById('img_3').src = src3;
+      document.getElementById('img_3').innerHTML = alt3;
+      document.getElementById('image').style.display = 'inline';
+
+      }
+      if ( pic == 4) {
+      var src2 = 'images/page4/nz/1.jfif';
+      var alt2 = 'Indian Team'
+      var src1 = 'images/page4/nz/3.jfif';
+      var alt1 = 'Dhoni';
+      var src3 = 'images/page4/nz/5.jfif';
+      var alt3 = 'kohli';
+      document.getElementById('img_1').src = src1;
+      document.getElementById('img_1').innerHTML = alt1;
+      document.getElementById('img_2').src = src2
+      document.getElementById('img_2').innerHTML = alt2;
+      document.getElementById('img_3').src = src3;
+      document.getElementById('img_3').innerHTML = alt3;
+      document.getElementById('image').style.display = 'inline';
+
+     }
+     if ( pic == 5) {
+      var src2 = 'images/page4/ban/1.jfif';
+      var alt2 = 'Indian Team'
+      var src1 = 'images/page4/ban/3.jfif';
+      var alt1 = 'Dhoni';
+      var src3 = 'images/page4/ban/5.jfif';
+      var alt3 = 'kohli';
+      document.getElementById('img_1').src = src1;
+      document.getElementById('img_1').innerHTML = alt1;
+      document.getElementById('img_2').src = src2
+      document.getElementById('img_2').innerHTML = alt2;
+      document.getElementById('img_3').src = src3;
+      document.getElementById('img_3').innerHTML = alt3;
+      document.getElementById('image').style.display = 'inline';
+
+    }
+    if ( pic == 6) {
+      var src2 = 'images/page4/sa/1.jfif';
+      var alt2 = 'Indian Team'
+      var src1 = 'images/page4/sa/3.jfif';
+      var alt1 = 'Dhoni';
+      var src3 = 'images/page4/sa/5.jfif';
+      var alt3 = 'kohli';
+      document.getElementById('img_1').src = src1;
+      document.getElementById('img_1').innerHTML = alt1;
+      document.getElementById('img_2').src = src2
+      document.getElementById('img_2').innerHTML = alt2;
+      document.getElementById('img_3').src = src3;
+      document.getElementById('img_3').innerHTML = alt3;
+      document.getElementById('image').style.display = 'inline';
+
+      }
+      if ( pic == 7) {
+      var src2 = 'images/page4/pak/1.jfif';
+      var alt2 = 'Indian Team'
+      var src1 = 'images/page4/pak/3.jfif';
+      var alt1 = 'Dhoni';
+      var src3 = 'images/page4/pak/5.jfif';
+      var alt3 = 'kohli';
+      document.getElementById('img_1').src = src1;
+      document.getElementById('img_1').innerHTML = alt1;
+      document.getElementById('img_2').src = src2
+      document.getElementById('img_2').innerHTML = alt2;
+      document.getElementById('img_3').src = src3;
+      document.getElementById('img_3').innerHTML = alt3;
+      document.getElementById('image').style.display = 'inline';
+
+      }
+      if ( pic == 8) {
+      var src2 = 'images/page4/wi/1.jfif';
+      var alt2 = 'Indian Team'
+      var src1 = 'images/page4/wi/3.jfif';
+      var alt1 = 'Dhoni';
+      var src3 = 'images/page4/wi/5.jfif';
+      var alt3 = 'kohli';
+      document.getElementById('img_1').src = src1;
+      document.getElementById('img_1').innerHTML = alt1;
+      document.getElementById('img_2').src = src2
+      document.getElementById('img_2').innerHTML = alt2;
+      document.getElementById('img_3').src = src3;
+      document.getElementById('img_3').innerHTML = alt3;
+      document.getElementById('image').style.display = 'inline';
+      }
+}
+</script><!--
+<script type="text/javascript">
+function picture(val) {
+  if(val == 1){
+    var src2 = 'images/page4/india/1.jfif';
+    var alt2 = 'Indian Team'
+    var src1 = 'images/page4/india/3.jfif';
+    var alt1 = 'Dhoni';
+    var src3 = 'images/page4/india/5.jfif';
+    var alt3 = 'kohli';
+    document.getElementById('img_1').src = src1;
+    document.getElementById('img_1').innerHTML = alt1;
+    document.getElementById('img_2').src = src2
+    document.getElementById('img_2').innerHTML = alt2;
+    document.getElementById('img_3').src = src3;
+    document.getElementById('img_3').innerHTML = alt3;
+    document.getElementById('image').style.display = 'inline';
+  }
+  if ( val == 2) {
+  var src2 = 'images/page4/eng/2.jfif';
+  var alt2 = 'Indian Team'
+  var src1 = 'images/page4/eng/4.jfif';
+  var alt1 = 'Dhoni';
+  var src3 = 'images/page4/eng/6.jfif';
+  var alt3 = 'kohli';
+  document.getElementById('img_1').src = src1;
+  document.getElementById('img_1').innerHTML = alt1;
+  document.getElementById('img_2').src = src2
+  document.getElementById('img_2').innerHTML = alt2;
+  document.getElementById('img_3').src = src3;
+  document.getElementById('img_3').innerHTML = alt3;
+  document.getElementById('image').style.display = 'inline';
+}
+if ( val == 3) {
+  var src2 = 'images/page4/aus/2.jfif';
+  var alt2 = 'Indian Team'
+  var src1 = 'images/page4/aus/4.jfif';
+  var alt1 = 'Dhoni';
+  var src3 = 'images/page4/aus/6.jfif';
+  var alt3 = 'kohli';
+  document.getElementById('img_1').src = src1;
+  document.getElementById('img_1').innerHTML = alt1;
+  document.getElementById('img_2').src = src2
+  document.getElementById('img_2').innerHTML = alt2;
+  document.getElementById('img_3').src = src3;
+  document.getElementById('img_3').innerHTML = alt3;
+  document.getElementById('image').style.display = 'inline';
+
+  }
+  if ( val == 4) {
+  var src2 = 'images/page4/nz/2.jfif';
+  var alt2 = 'Indian Team'
+  var src1 = 'images/page4/nz/4.jfif';
+  var alt1 = 'Dhoni';
+  var src3 = 'images/page4/nz/6.jfif';
+  var alt3 = 'kohli';
+  document.getElementById('img_1').src = src1;
+  document.getElementById('img_1').innerHTML = alt1;
+  document.getElementById('img_2').src = src2
+  document.getElementById('img_2').innerHTML = alt2;
+  document.getElementById('img_3').src = src3;
+  document.getElementById('img_3').innerHTML = alt3;
+  document.getElementById('image').style.display = 'inline';
+
+ }
+ if ( val == 5) {
+  var src2 = 'images/page4/ban/2.jfif';
+  var alt2 = 'Indian Team'
+  var src1 = 'images/page4/ban/4.jfif';
+  var alt1 = 'Dhoni';
+  var src3 = 'images/page4/ban/6.jfif';
+  var alt3 = 'kohli';
+  document.getElementById('img_1').src = src1;
+  document.getElementById('img_1').innerHTML = alt1;
+  document.getElementById('img_2').src = src2
+  document.getElementById('img_2').innerHTML = alt2;
+  document.getElementById('img_3').src = src3;
+  document.getElementById('img_3').innerHTML = alt3;
+  document.getElementById('image').style.display = 'inline';
+
+}
+if ( val == 6) {
+  var src2 = 'images/page4/sa/2.jfif';
+  var alt2 = 'Indian Team'
+  var src1 = 'images/page4/sa/4.jfif';
+  var alt1 = 'Dhoni';
+  var src3 = 'images/page4/sa/6.jfif';
+  var alt3 = 'kohli';
+  document.getElementById('img_1').src = src1;
+  document.getElementById('img_1').innerHTML = alt1;
+  document.getElementById('img_2').src = src2
+  document.getElementById('img_2').innerHTML = alt2;
+  document.getElementById('img_3').src = src3;
+  document.getElementById('img_3').innerHTML = alt3;
+  document.getElementById('image').style.display = 'inline';
+
+  }
+  if ( val == 7) {
+  var src2 = 'images/page4/pak/2.jfif';
+  var alt2 = 'Indian Team'
+  var src1 = 'images/page4/pak/4.jfif';
+  var alt1 = 'Dhoni';
+  var src3 = 'images/page4/pak/6.jfif';
+  var alt3 = 'kohli';
+  document.getElementById('img_1').src = src1;
+  document.getElementById('img_1').innerHTML = alt1;
+  document.getElementById('img_2').src = src2
+  document.getElementById('img_2').innerHTML = alt2;
+  document.getElementById('img_3').src = src3;
+  document.getElementById('img_3').innerHTML = alt3;
+  document.getElementById('image').style.display = 'inline';
+
+  }
+  if ( val == 8) {
+  var src2 = 'images/page4/wi/2.jfif';
+  var alt2 = 'Indian Team'
+  var src1 = 'images/page4/wi/4.jfif';
+  var alt1 = 'Dhoni';
+  var src3 = 'images/page4/wi/6.jfif';
+  var alt3 = 'kohli';
+  document.getElementById('img_1').style.backgroundImage =  "url('" + src1 + "')";
+  document.getElementById('img_1').innerHTML = alt1;
+  document.getElementById('img_2').src = src2
+  document.getElementById('img_2').innerHTML = alt2;
+  document.getElementById('img_3').src = src3;
+  document.getElementById('img_3').innerHTML = alt3;
+  document.getElementById('image').style.display = 'inline';
+  }
+}
+
+</script>-->
+<footer><hr>
+<p>copyright (c) Hrithik 2020</p><hr>
+</footer>
+</body>
+</html>

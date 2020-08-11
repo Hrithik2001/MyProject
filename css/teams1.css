@@ -1,0 +1,136 @@
+/*.container{
+	scroll-behavior: smooth;
+	background-color: #709910;
+}*/
+body{
+		margin: 2%;
+		border: 1px solid black;
+		background-color: #b3b3b3;
+}
+h1, h2{
+  text-align: center;
+}
+.top{
+  /*width: 100%;
+  height: 1vh;*/
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top input{
+  width: 17%;
+  height: 6.5vh;
+  margin-left: 12%;
+  border: 2px #274372 solid;
+  border-radius: 5px;
+  opacity: 0.8;
+  background-color: lightgreen;
+  transition: transform 0.5s;
+  transition-timing-function: ease;
+}
+/*.top button:first-child{
+  margin-right: 5%;
+}*/
+.top input:last-child{
+  margin-right: 15%;
+}
+.top input:active{
+  border-radius: 10px;
+  opacity: 1.0;
+  transform: rotateZ(360deg);
+}
+.bottom{
+  /*width: 100%;
+  height: 1vh;*/
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bottom input{
+  width: 17%;
+  height: 6.5vh;
+  margin-left: 12%;
+  border: 2px #274372 solid;
+  border-radius: 5px;
+  opacity: 0.8;
+  background-color: lightgreen;
+  transition: transform 0.5s;
+}
+/*.top button:first-child{
+  margin-right: 5%;
+}*/
+.bottom input:last-child{
+  margin-right: 15%;
+}
+.bottom input:active{
+  border-radius: 10px;
+  opacity: 1.0;
+  transform: rotateZ(360deg);
+}
+#image{
+  height: 300px;
+  width: 100%;
+}
+#image input{
+  line-height:650px;
+  width: 27.5%;
+  height: 270px;
+  border:2px solid white;
+  margin:0 auto;
+  margin-top: 15px;
+  background-color: #8e68ff;
+  margin-right: 3%;
+  display: inline;
+  /*background-image: url(' ');
+  background-repeat: no-repeat;
+  background-image: cover;*/
+  color:#263536;
+  text-align: center;
+  background-size: 100%;
+  margin-bottom:25px;
+  font-size: 150%;
+  background-image: url(' '); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+/*  height: 400px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+#image input:first-child{
+  margin-left: 3%;
+}
+#image input:hover{
+	border-radius: 50%;
+}
+/*#image1 input:hover{
+	background-image: url('images/page4/eng/2.jfif');
+}*/
+#image input:hover {
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: shake 4.5s;
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+footer{
+  background-color: #999172;
+}
+footer p{
+  text-align: center;
+}

@@ -1,0 +1,180 @@
+body{
+		margin: 2%;
+		border: 1px solid black;
+		background-color: #b3b3b3;
+}
+h1{
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  background-color: #555;
+  animation-name: hello;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
+  @keyframes hello {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+.right{
+  height: 150px;
+}
+/*.right h1:hover{
+  border-radius: 35px;
+  text-transform: uppercase;
+}*/
+.right h2{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+/*body{
+  background-color: #ddd;
+}*/
+.active {
+  background-color: #717171;
+}
+#id_12 img{
+  width: 25%;
+  height: 25%;
+  border: 1px #ddd solid ;
+}
+
+#id_12 img:hover{
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+
+#id_13 img{
+  width: 25%;
+  height: 25%;
+  border: 1px #ddd solid ;
+}
+
+#id_13 img:hover{
+  width: 100%;
+  height: 100%;
+  color: white;
+  border-radius: 50%;
+}
+#id_14 img{
+  width: 25%;
+  height: 25%;
+  border: 1px #ddd solid ;
+}
+
+#id_14 img:hover{
+  width: 100%;
+  height: 100%;
+  color: white;
+  border-radius: 50%;
+}
+#id_15 img{
+  width: 25%;
+  height: 25%;
+  border: 1px #ddd solid ;
+}
+
+#id_15 img:hover{
+  width: 100%;
+  height: 100%;
+  color: white;
+  border-radius: 50%;
+}
+#id_16 img{
+  width: 25%;
+  height: 25%;
+  border: 1px #ddd solid ;
+}
+
+#id_16 img:hover{
+  width: 100%;
+  height: 100%;
+  color: white;
+  border-radius: 50%;
+}
+.center pre{
+  text-align: center;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  color: #723783;
+}
+
+.center pre:hover{
+  color: #825337;
+  font-family: cursive;
+}
+/*h1{
+  text-align: center;
+  font-weight: bolder;
+  font-family: Arial, sans-serif;
+  color: #671822;
+}*/
+h1:hover{
+  font-style: oblique;
+  border-radius: 5%;
+}
+.responsive tr{
+  color: #826383;
+  align-items: center;
+  opacity: 0.8;
+}
+.responsive tr:hover{
+  opacity: 1.0;
+  font-family: cursive;
+}
+img:active{
+  font-size: 100px;
+  display: contents;
+  background-image: url('images/page2/pitch.jfif');
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 5%, 4%;
+}
+footer{
+  text-align: center;;
+  background-color: #999172;
+}
+footer p{
+  text-align: center;
+}
+hr{
+  border-radius: 25px;
+}
+/*.left{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: hii;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes hii {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:100%; top:0px;}
+  50%  {background-color:blue; left:100%; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}*/
+.right h1{
+  width: 80px;
+  height: 50px;
+  background-color: red;
+  position: relative;
+  animation-name: hey;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+@keyframes hey {
+  0%   {font-style: italic;background-color:red; left:0px; top:0%;}
+  25%  {border-radius: 15%;font-style: normal;backgr4ound-color:green; left:90%; top:0%;}
+  50%  {border-radius: 30%;font-family: cursive;background-color:blue; left:90%; top:560%;}
+  75%  {border-radius: 45%font-family: fantasy;background-color:yellow; left:0%; top:560%;}
+  100% {font-family: monospace;background-color:red; left:0px; top:0%;}
+}

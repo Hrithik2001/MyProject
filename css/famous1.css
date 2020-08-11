@@ -1,0 +1,105 @@
+body{
+  background-color: #87cefa;
+  /*background-color: #107896;*/
+}
+h1{
+  text-align: center;
+  color: white;
+  opacity: 0.9;
+  margin-top: 8%;
+}
+h3{
+  text-align: center;
+  color: white;
+  opacity: 1.0;
+  text-shadow: 0.6;
+  font-weight: lighter;
+  font-size: 180%;
+  margin-bottom: 5%;
+}
+.top h3{
+  text-align: left;
+  color: white;
+  opacity: 0.9;
+  font-weight: lighter;
+  font-size: 155%;
+}
+.top{
+  margin-top: 4%;
+}
+
+p{
+  color: white;
+  font-size: 200%;
+  border-top-right-radius: 35px;
+  border-bottom-right-radius: 35px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50%;
+}
+
+/*.top .left span{
+  font-size:250%;
+  color: white;
+  clear: both;
+  margin-bottom: 5%;
+}
+.top .left p{
+  font-size: 170%;
+  margin-bottom: 5%;
+  margin-left: 10%;
+  margin-top: 2%;
+}*/
+
+
+@media screen and (min-width: 700px) {
+  .top .left{
+    display: inline-block;
+    margin-left: 5%;
+  }
+  .top .right{
+    display: inline-block;
+    margin-left: 5%;
+  }
+}
+img{
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50%;
+  margin-right: 2%;
+}
+img:hover{
+  height: 200px;
+  width: 200px;
+}
+.top p{
+  border: 1px white solid;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+h1:hover{
+  font-style: oblique;
+  font-family: Helvetica, sans-serif;
+  color: #472573;
+}
+h3:hover{
+  font-family: cursive;
+  color: #862336;
+}
+.top .left p:hover{
+  color: Indigo;
+  font-style: oblique;
+}
+.top .right p:hover{
+  color: Indigo;
+  font-style: oblique;
+}
+footer{
+  background-color: #999172;
+}
+footer p{
+  text-align: center;
+  font-size: 100%;
+}
